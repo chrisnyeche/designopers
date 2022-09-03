@@ -12,6 +12,9 @@ import "./index.css";
 // AOS
 import "aos/dist/aos.css";
 
+//import animate
+import 'animate.css';
+
 // `ChakraProvider` component
 import { ChakraProvider } from "@chakra-ui/react";
 

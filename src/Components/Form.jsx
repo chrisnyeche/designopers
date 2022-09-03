@@ -16,24 +16,24 @@ import {
   
   const avatars = [
     {
-      name: 'Ryan Florence',
-      url: 'https://bit.ly/ryan-florence',
+      name: 'Wordpress',
+      url: 'https://img.icons8.com/fluency/48/000000/wordpress.png',
     },
     {
-      name: 'Segun Adebayo',
-      url: 'https://bit.ly/sage-adebayo',
+      name: 'Figma',
+      url: 'https://img.icons8.com/color/48/000000/figma--v1.png', 
     },
     {
-      name: 'Kent Dodds',
-      url: 'https://bit.ly/kent-c-dodds',
+      name: 'Adobe XD',
+      url: 'https://img.icons8.com/color/48/000000/adobe-xd--v1.png',
     },
     {
-      name: 'Prosper Otemuyiwa',
-      url: 'https://bit.ly/prosper-baba',
+      name: 'React',
+      url: 'https://img.icons8.com/nolan/64/react-native.png',
     },
     {
-      name: 'Christian Nwamba',
-      url: 'https://bit.ly/code-beast',
+      name: 'Python',
+      url: 'https://img.icons8.com/color/48/000000/python--v1.png',
     },
   ];
   
@@ -50,14 +50,14 @@ import {
             <Heading
               lineHeight={1.1}
               fontSize={{ base: '3xl', sm: '4xl', md: '5xl', lg: '6xl' }}>
-              Senior web designers{' '}
+             Top Technologies for Designers {" "}
               <Text
                 as={'span'}
                 bgGradient="linear(to-r, red.400,pink.400)"
                 bgClip="text">
                 &
               </Text>{' '}
-              Full-Stack Developers
+              Developers
             </Heading>
             <Stack direction={'row'} spacing={4} align={'center'}>
               <AvatarGroup>
@@ -68,14 +68,14 @@ import {
                     src={avatar.url}
                     size={{ base: 'md', md: 'lg' }}
                     position={'relative'}
-                    zIndex={2}
+                    zIndex={-1}
                     _before={{
                       content: '""',
                       width: 'full',
                       height: 'full',
                       rounded: 'full',
                       transform: 'scale(1.125)',
-                      bgGradient: 'linear(to-bl, red.400,pink.400)',
+                      bgGradient: 'linear(to-bl, red.400,pink.900)',
                       position: 'absolute',
                       zIndex: -1,
                       top: 0,
@@ -92,7 +92,6 @@ import {
                 justify={'center'}
                 fontFamily={'heading'}
                 fontSize={{ base: 'sm', md: 'lg' }}
-                bg={'gray.800'}
                 color={'white'}
                 rounded={'full'}
                 width={useBreakpointValue({ base: '44px', md: '60px' })}
@@ -104,13 +103,29 @@ import {
                   height: 'full',
                   rounded: 'full',
                   transform: 'scale(1.125)',
-                  bgGradient: 'linear(to-bl, orange.400,yellow.400)',
                   position: 'absolute',
                   zIndex: -1,
                   top: 0,
                   left: 0,
                 }}>
-                YOU
+                    <Avatar
+                    key={"chakra"}
+                    name={"chakra"}
+                    src={"https://img.icons8.com/color/48/000000/chakra-ui.png"}
+                    size={{ base: 'md', md: 'lg' }}
+                    _before={{
+                      content: '""',
+                      width: 'full',
+                      height: 'full',
+                      rounded: 'full',
+                      transform: 'scale(1.125)',
+                      bgGradient: 'linear(to-bl, red.400,pink.900)',
+                      position: 'absolute',
+                      zIndex: -1,
+                      top: 0,
+                      left: 0,
+                    }}
+                    />
               </Flex>
             </Stack>
           </Stack>
@@ -159,7 +174,7 @@ import {
                   }}
                 />
                 <Input
-                  placeholder="+1 (___) __-___-___"
+                  placeholder="+1 900 000 0000"
                   bg={'gray.100'}
                   border={0}
                   color={'gray.500'}
@@ -201,7 +216,7 @@ import {
     return (
       <Icon
         width={useBreakpointValue({ base: '100%', md: '40vw', lg: '30vw' })}
-        zIndex={useBreakpointValue({ base: -1, md: -1, lg: 0 })}
+        zIndex={useBreakpointValue({ base: -2, md: -1, lg: -1 })}
         height="560px"
         viewBox="0 0 528 560"
         fill="none"
