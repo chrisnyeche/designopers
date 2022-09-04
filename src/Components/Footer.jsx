@@ -64,7 +64,7 @@ export default function LargeWithNewsletter() {
               © 2022 Chris Designx. All rights reserved
             </Text>
             <Stack direction={'row'} spacing={6}>
-              <SocialButton label={'Github'} href={'https://github.com/chrisdesignsofficial.com'}>
+              <SocialButton label={'Github'} href={'https://github.com/chrisdesignsofficial'}>
                 <FaGithub />
               </SocialButton>
               <SocialButton label={'LinkedIn'} href={'https://www.linkedin.com/in/chris-nyeche'}>
