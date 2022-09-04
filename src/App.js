@@ -11,10 +11,9 @@ function App() {
     <>
       <NavBar />
       <Hero />
-
-      <Feature/>
       <Form />
       <Testimonials />
+      <Feature/>
       <Newsletter />
       <Footer />
     </>

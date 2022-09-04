@@ -150,7 +150,7 @@ import { Container } from 'react-bootstrap';
             fontFamily={'Work Sans'}
             fontWeight={'bold'}
             color={useColorModeValue('gray.700', 'gray.50')}>
-            You're in good company
+            You're about to Join the best community
           </chakra.h1>
           <chakra.h2
             margin={'auto'}
@@ -160,9 +160,9 @@ import { Container } from 'react-bootstrap';
             color={useColorModeValue('gray.500', 'gray.400')}>
             See why over{' '}
             <chakra.strong color={useColorModeValue('gray.700', 'gray.50')}>
-              150,000+
+              15,000+
             </chakra.strong>{' '}
-            influencers use Designoper to manage their social media content!
+            designers and developers have joined Designopers!
           </chakra.h2>
         </Box>
         <SimpleGrid

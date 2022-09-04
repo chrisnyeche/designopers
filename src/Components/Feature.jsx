@@ -1,5 +1,5 @@
 import { Container, SimpleGrid, Flex, Heading, Text, Stack, StackDivider, Icon, useColorModeValue } from "@chakra-ui/react";
-import { IoAnalyticsSharp, IoLogoBitcoin, IoSearchSharp } from "react-icons/io5";
+import { IoLogoFigma, IoLogoReact, IoLogoWordpress } from "react-icons/io5";
 import { Player } from "@lottiefiles/react-lottie-player";
 
 const Feature = ({ text, icon, iconBg }) => {
@@ -23,12 +23,12 @@ export default function SplitWithImage() {
           </Text>
           <Heading>Designoper School</Heading>
           <Text color={"gray.500"} fontSize={"lg"}>
-            Be a part of our online school to learn web design, no code and website & application development.
+            Be a part of our online school to learn web design, web & application development for mobile, including no code design and development using Wordpress.
           </Text>
           <Stack spacing={4} divider={<StackDivider borderColor={useColorModeValue("gray.100", "gray.700")} />}>
-            <Feature icon={<Icon as={IoAnalyticsSharp} color={"yellow.500"} w={5} h={5} />} iconBg={useColorModeValue("yellow.100", "yellow.900")} text={"Business Planning"} />
-            <Feature icon={<Icon as={IoLogoBitcoin} color={"green.500"} w={5} h={5} />} iconBg={useColorModeValue("green.100", "green.900")} text={"Financial Planning"} />
-            <Feature icon={<Icon as={IoSearchSharp} color={"purple.500"} w={5} h={5} />} iconBg={useColorModeValue("purple.100", "purple.900")} text={"Market Analysis"} />
+            <Feature icon={<Icon as={IoLogoFigma} color={"yellow.500"} w={5} h={5} />} iconBg={useColorModeValue("yellow.100", "yellow.900")} text={"Website/Mobile Design"} />
+            <Feature icon={<Icon as={IoLogoReact} color={"green.500"} w={5} h={5} />} iconBg={useColorModeValue("green.100", "green.900")} text={"Website/Mobile Development"} />
+            <Feature icon={<Icon as={IoLogoWordpress} color={"purple.500"} w={5} h={5} />} iconBg={useColorModeValue("purple.100", "purple.900")} text={"No code Development"} />
           </Stack>
         </Stack>
         <Flex>
