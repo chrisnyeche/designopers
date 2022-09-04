@@ -51,11 +51,11 @@ export default function CardWithIllustration() {
             }}
           />
           <Button
-            bg={'blue.400'}
+            bg={'red.400'}
             rounded={'full'}
             color={'white'}
             flex={'1 0 auto'}
-            _hover={{ bg: 'blue.500' }}
+            _hover={{ bg: 'red.500' }}
             _focus={{ bg: 'blue.500' }}>
             Subscribe
           </Button>

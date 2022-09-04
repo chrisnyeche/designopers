@@ -165,7 +165,7 @@ import {
                   }}
                 />
                 <Input
-                  placeholder="firstname@lastname.io"
+                  placeholder="youremail@lastname.io"
                   bg={'gray.100'}
                   border={0}
                   color={'gray.500'}
@@ -182,9 +182,13 @@ import {
                     color: 'gray.500',
                   }}
                 />
-                <Button fontFamily={'heading'} bg={'gray.200'} color={'gray.800'}>
-                  Upload CV
-                </Button>
+                 <Input
+                  placeholder="Upload your cv"
+                  bg={'gray.100'}
+                  border={0}
+                  color={'gray.500'}
+                  type="file"
+                />
               </Stack>
               <Button
                 fontFamily={'heading'}
