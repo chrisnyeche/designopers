@@ -1,10 +1,10 @@
-# DESIGNOPER: Designer-Developer Coomunity
+# DESIGNOPER: Designer-Developer Community
 
 This project was done uisng react, and chakra ui [Chakra](https://chakra-ui.com/).
 
 ## Official Link
 
-The official project has been hosted on Netlify [https://netlify.app/netlify/net](https://netlify.app/netlify/net)
+The official project has been hosted on Netlify [https://designopers.netlify.app](https://designopers.netlify.app)
 
 To view locally:
 In the project directory, you can run:
